@@ -1,0 +1,99 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	background-color: #fff;
+}
+
+.text-body{
+
+	margin: 100px auto;
+	padding: 125px;
+	display: inline-block;
+	width: 90%;
+	max-width: 1400px;
+
+}
+.main-header{
+font-family: 'Playfair Display', serif;
+color: #171717;
+font-size: 42px; /* Приближение из-за подстановки шрифтов */
+font-weight: 400;
+text-align: left;
+margin-bottom: 20px;
+}
+
+.paragraph11, 
+.paragraph12 {
+font-family: 'Lato', sans-serif;
+color: #171717;
+font-size: 18px; /* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 34px; /* Приближение из-за подстановки шрифтов */
+text-align: left;
+display: block;
+}
+
+.paragraph2{
+font-family: 'Lato', sans-serif;
+color: #171717;
+font-size: 18px; /* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 40px; /* Приближение из-за подстановки шрифтов */
+text-align: left;
+display: block;
+}
+
+.quote {
+font-family: 'Lato', sans-serif;
+letter-spacing: 0.08em;
+font-style: italic;
+color: #171717;
+font-size: 24px; /* Приближение из-за подстановки шрифтов */
+font-weight: 300;
+line-height: 34px; /* Приближение из-за подстановки шрифтов */
+text-align: left;
+transform: scaleX(1.1041); /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+display: block;
+}
+
+blockquote:before {
+    color: #bbb;
+    content: " “ ";
+    font-size: 3em;
+    line-height: 0.1em;
+    margin-right: 0.2em;
+    vertical-align: -.4em;
+}
+ 
+
+
+ 
+blockquote > p:first-child {
+    display: inline;
+}
+.paragraph11:first-letter {
+
+	font-family: 'Playfair Display', serif;
+    color: #171717;
+    font-size: 400%; 
+    float: left;
+    margin: 20px 30px;
+
+}
+
+.text-body a button {
+
+    font: 700 18px/1.9 'Lato', Arial, sans-serif;
+    color: #eaa258;
+    text-align: center;
+    padding: 15px 65px;
+    text-transform: uppercase;
+    background-color: #FFF;
+    border: 2px solid #eaa258;
+    letter-spacing: 0.35em;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
